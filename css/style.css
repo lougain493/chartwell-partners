@@ -1,0 +1,292 @@
+ body{
+    background-image: url(imgs/58_ChartwellTeamPortraits_03-29-23.jpg);
+    background-size: 1500px;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: rgb(247, 244, 244);
+ }
+ header{
+    background-color: white;
+     padding: 26px 26px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.Logo{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(88, 91, 196);
+}
+a.Logo span{
+    color: rgb(20, 20, 97);
+}
+.navbar{
+         display: flex;
+    flex-direction: row;
+      gap: 60px;
+      align-items: center;
+      margin-left: 200px;
+}
+.navbar a{
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(22, 22, 75);
+    text-decoration: none;
+}
+a.contact-btn{
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(1, 136, 194);
+    border: 1px solid rgb(0, 121, 202);
+padding: 10px 30px;
+margin-right: 70px;
+}
+h1{
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 600px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.986);
+}
+p.Board{
+    font-family: 'Libre Caslon Condensed';
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    padding: 50px 50px;
+    margin-top: 60px;
+    background-color: rgb(41, 41, 108);
+}
+h2.indust{
+    font-family:'Libre Caslon Condensed' ;
+    font-size: 40px;
+    font-weight: 650;
+    text-align: left;
+    color: rgb(21, 21, 83);
+    margin-left: 100px;
+    margin-top:80px ;
+}
+p.Industry{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(62, 52, 131);
+    margin-left: 100px;
+    margin-top:30px ;
+    line-height: 30px;
+}
+a.meet-btn{
+    font-family: 'jost';
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    justify-content: right;
+    text-align: right;
+    margin-left: 1200px;
+    transform: translateY(-80px);
+    color: rgb(1, 136, 194);
+    text-decoration: none;
+    border: 1px solid rgb(0, 121, 202);
+    padding: 10px 30px;
+}
+.Icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Financial{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 100px;
+    background-color: white;
+    transform: translateX(100px);
+}
+.Card-Icon{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(64, 95, 197);
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    padding: 15px 15px;
+    position: relative;
+    transform: translate(-70px,60px);
+    bottom: 40px;
+}
+h3{
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    transform: translate(-70px,35px);
+}
+ul{
+    display: flex;
+    flex-direction:column ;
+    font-family: 'Roboto';
+    font-size:20px;
+    font-weight: 350;
+    line-height: 45px;
+    transform: translate(-70px,5px);
+}
+a.see-btn{
+     font-family: 'jost';
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    color: rgb(1, 136, 194);
+    text-decoration: solid;
+    padding: 10px 30px;
+    transform: translate(-100px,-15px);
+}
+.Real{
+     display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 100px;
+    background-color: white;
+    transform: translateX(-80px);
+    width: 450px;
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+}
+h2.team{
+    font-family:'Libre Caslon Condensed' ;
+font-size: 40px;
+font-weight: bold;
+color: rgb(25, 18, 80);
+transform: translateX(100px);
+margin-top: 200px;
+}
+.team-card{
+    text-align: center;
+    position: relative;
+}
+.team-card img{
+      width: 310px;
+    height: 430px;
+}
+.team-card h3{
+font-family: 'Roboto';
+font-size: 25px;
+font-weight: bold;
+color: rgb(6, 25, 83);
+transform: translate(60px , 20px);
+
+}
+.team-card p{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(6, 6, 72);
+
+}
+.view-btn{
+  font-family: 'jost';
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    color: rgb(1, 136, 194);
+    text-decoration: solid;
+    padding: 10px 30px;    
+
+}
+.card-info{
+    background-color: white;
+    width: 270px;
+    height: 130px;
+    position: relative;
+    z-index: 1000;
+    margin-top: -100px;
+    transform: translateX(20px);
+}
+.Company {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 5px 40px;
+    max-width: 800px;
+}
+.container h2{
+    font-family:'Libre Caslon Condensed' ;
+font-size: 40px;
+font-weight: 500;
+margin-top: 300px;
+margin-left: 100px;
+color: rgb(14, 14, 108);
+}
+.container p{
+    font-family:'Roboto' ;
+font-size: 18px;
+font-weight: 380;
+line-height: 30px;
+margin-left: 100px;
+color: rgb(12, 12, 61);
+}
+.comp-card h3{
+    font-family:'Roboto' ;
+font-size: 22px;
+font-weight: 600;
+transform: translateY(-10px);
+margin-left: 100px;
+color: rgb(12, 12, 61);
+}
+.comp-card p{
+      font-family:'Roboto' ;
+font-size: 18px;
+font-weight: 380;
+line-height: 30px;
+margin-left: 100px;
+transform: translateY(-20px);
+color: rgb(12, 12, 61);
+}
+.itam{
+  display: block;
+  transform: translate(900px,-600px);
+}
+.divider{
+    width: 70%;
+    margin: 30px;
+}
+.stat-num{
+    font-size: 53px;
+    font-weight: bold;
+    color: rgb(55, 89, 174);
+    margin:50px 50px ;
+}
+p.stat-lab{
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(15, 33, 82);
+    margin:20px 50px ;
+}
+.loc{
+
+    
+}
